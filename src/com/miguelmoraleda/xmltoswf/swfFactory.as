@@ -1,24 +1,27 @@
-package classes
+package com.miguelmoraleda.xmltoswf
 {
-	import classes.abcEncoders.BodyInfoEncode;
-	import classes.abcEncoders.CPoolInfoEncode;
-	import classes.abcEncoders.VersionEncode;
-	import classes.encoders.DoAbcEncode;
-	import classes.encoders.FileAttributesEncode;
-	import classes.encoders.ImageEncode;
-	import classes.encoders.PlaceObject2Encode;
-	import classes.encoders.RectangleEncode;
-	import classes.encoders.HeaderEncode;
-	import classes.encoders.EncoderBase;
-	import classes.encoders.BackgroundColorEncode;
-	import classes.encoders.DefineShapeEncode;
-	import classes.encoders.ShowFrameEncode;
-	import classes.encoders.SpriteEncode;
-	import classes.encoders.StraightEdgeRecordEncode;
-	import classes.encoders.StringEncode;
-	import classes.encoders.StyleChangeRecordEncode;
-	import classes.encoders.SymbolClassEncode;
+	import com.miguelmoraleda.xmltoswf.abcEncoders.BodyInfoEncode;
+	import com.miguelmoraleda.xmltoswf.abcEncoders.CPoolInfoEncode;
+	import com.miguelmoraleda.xmltoswf.abcEncoders.VersionEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.DoAbcEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.FileAttributesEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.ImageEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.PlaceObject2Encode;
+	import com.miguelmoraleda.xmltoswf.encoders.RectangleEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.HeaderEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.EncoderBase;
+	import com.miguelmoraleda.xmltoswf.encoders.BackgroundColorEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.DefineShapeEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.ShowFrameEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.SpriteEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.StraightEdgeRecordEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.StringEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.StyleChangeRecordEncode;
+	import com.miguelmoraleda.xmltoswf.encoders.SymbolClassEncode;
 	
+	/**
+	 * 
+	 */
     public class swfFactory
     {
 		protected static var _classList:Object = { 
