@@ -1,1 +1,5 @@
-xml2swf is a open source library that allow you to write swf files on runtime.
+xml2swf is an open source experiment library that allow you to create a SWF within a MovieClip Animation from XML definition file.
+
+Funny thing, this is an Actionscript library and run in Adobe Air.
+
+IMPORTANT NOTE: This library is a experiment, currently support the creation of one MovieClip per swf file.
