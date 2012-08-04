@@ -3,3 +3,60 @@ xml2swf is an open source experiment library that allow you to create a SWF with
 Funny thing, this is an Actionscript library and run in Adobe Air.
 
 IMPORTANT NOTE: This library is a experiment, currently support the creation of one MovieClip per swf file.
+
+
+
+
+XML Example
+
+<movie>
+  <library>
+		<imagesData>
+			<images>
+				<characterId>1</characterId>
+				<source>assets/image1.png</source>
+				<format><JPEG3>90</JPEG3></format>
+			</images>
+			<images>
+				<characterId>2</characterId>
+				<source>assets/image2.png</source>
+				<format><JPEG3>90</JPEG3></format>
+			</images>
+			<images>
+				<characterId>3</characterId>
+				<source>assets/image3.png</source>
+				<format><JPEG3>90</JPEG3></format>
+			</images>
+			<images>
+				<characterId>4</characterId>
+				<source>assets/image4.png</source>
+				<format><JPEG3>90</JPEG3></format>
+			</images>
+		</imagesData>
+		<clip>
+			<class>main.notemixer.test.testImage</class>
+			<frames>
+				<place>
+					<id>1</id>
+					<x>0</x>
+					<y>0</y>
+				</place>
+				<place>
+					<id>2</id>
+					<x>0</x>
+					<y>0</y>
+				</place>
+				<place>
+					<id>3</id>
+					<x>0</x>
+					<y>0</y>
+				</place>
+				<place>
+					<id>4</id>
+					<x>0</x>
+					<y>0</y>
+				</place>
+			</frames>
+		</clip>
+	</library>
+</movie>
